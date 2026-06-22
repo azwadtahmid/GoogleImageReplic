@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 200px;
+}
+
+.box{
+    width: 500px;
+    height: 44px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    font-size: 16px;
+    padding: 0 16px;
+}
+
+.box:hover,
+.box:focus{
+    box-shadow: 0 1px 6px grey;
+    border-color: grey;
+}
+
+.bar{
+    height: 36px;
+    display: block;
+    margin: 20px auto 0;
+    padding: 0 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3c4043;
+    background: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ 
+.bar:hover{
+    border-color: #dadce0;
+    box-shadow: 0 1px 1px black;
+}
